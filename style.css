@@ -1,0 +1,194 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+    text-decoration: none;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.ls{
+    /* position: relative; */
+    height: 100%;
+    width: 70%;
+    background-color: rgb(187, 122, 3);
+}
+.rs{
+    position: relative;
+    height: 100%;
+    width: 30%;
+    background-color: rgb(145, 145, 145);  
+}
+.one{
+    width: 60%;
+    height: 50%;
+    background-color: rgb(209, 146, 28);
+    overflow: hidden;
+}
+.two{
+    width: 60%;
+    height: 20%;
+    background-color: #091072;
+    position: relative;
+}
+.three{
+    position: relative;
+    width: 100%;
+    height: 30%;
+    background-position-y: -60px;
+    background-size: cover;
+    background-color: #162786;
+}
+#girl{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 120%;
+    z-index: 0;
+}
+#shoe{
+    width: 100%;
+}
+.twocopy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    height: 20%;
+    position: absolute;
+    right: 30%;
+    top: 50%;
+    overflow: hidden;
+    background-color: rgb(209, 146, 28);
+}
+.twocopy img{
+    transform: rotate(90deg);
+    width: 100%;
+}
+.imagecontain img{
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.imagecontain{
+    position: relative;
+   width: 100%;
+   height: 100%;         
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 15%;
+    width: 100vw;
+    position: absolute;
+    z-index: 9;
+    color: rgba(255, 255, 255, 0.89);
+    font-size: 12px;
+}
+.onetwo{
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    height: 70%;
+    width: 40%;
+    background-color: #091072;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color: rgba(255, 255, 255, 0.74);
+    font-size: 12px;
+}
+#v{
+    transform: rotate(-90deg);
+}
+#i{
+    margin-right: -50px;
+    padding-left: 4px;
+}
+.twotext{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+    color: rgba(255, 255, 255, 0.74);
+}
+.threeword{
+    position: absolute;
+    padding-top: 30px;
+    padding-left: 30px;
+    color: rgba(255, 255, 255, 0.74);
+    z-index: 99;
+}
+.threeword h4{
+    padding-bottom: 15px;
+}
+.tailor{
+    width: 45%;
+    height: 60%;
+    position: absolute;
+    bottom: 0%;
+    left: 10%;
+    z-index: 3;
+}
+.t1{
+    font-size: 70px;
+    padding-bottom: 20px;
+    color: #1b4fc0;
+}
+.t2{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+    color: rgba(255, 255, 255, 0.74);
+}
+.t3{
+    color: rgba(255, 255, 255, 0.74);
+}
+.t11{
+    width: 49%;
+}
+.t12{
+    width: 40%;
+}
+span{
+    font-size: large;
+    font-weight: 700;
+}
+.overlay{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.486);
+    height: 100%;
+    width: 100%;
+    z-index: 5;
+}
+.twocopy i{
+    width: 30px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.361);
+    position: absolute;
+    z-index: 9;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+.twocopy i:hover{
+    cursor: pointer;
+}
+a{
+    color: rgba(255, 255, 255, 0.89);
+}
